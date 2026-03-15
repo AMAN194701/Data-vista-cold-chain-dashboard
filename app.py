@@ -38,7 +38,7 @@ PLOTLY_TEMPLATE = 'plotly_dark'
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    fp = "Business Case and Dataset_Data Vista 2026(1)(Dataset).csv"
+    fp = "Dataset.csv"
     if not os.path.exists(fp):
         st.error(f"Dataset not found: {fp}")
         return pd.DataFrame()
