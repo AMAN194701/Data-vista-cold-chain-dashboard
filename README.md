@@ -24,38 +24,41 @@ bash# 1. Clone the repository
 git clone https://github.com/AMAN194701/Data-vista-cold-chain-dashboard
 cd Data-vista-cold-chain-dashboard
 
-# 2. Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the app
+## Run the app
 streamlit run app.py
 
 Make sure Dataset.csv is in the same directory as app.py.
 
 
-📁 Project Structure
-Data-vista-cold-chain-dashboard/
-│
-├── app.py              # Main Streamlit application (all dashboard logic)
-├── Dataset.csv         # Cold chain transaction data (100,000 rows)
-├── requirements.txt    # Python dependencies
-└── README.md           # You are here
-
 📌 Key Features
 
 > Sidebar Filters — Filter by Region, Category, Supplier, Month, and Store dynamically
+> 
 > 6 KPI Cards — Revenue, Profit, Margin, Waste Cost, Waste Rate, Units Wasted
+> 
 > 15 Interactive Charts — Bar, Line, Scatter, Treemap, Pie, Waterfall, and Dual-Axis charts
+> 
 > Auto-generated Insights — Each section surfaces a data-driven insight box
+> 
 > Strategic Recommendations — 5 actionable business recommendations derived from the data
+> 
 > Dark Professional Theme — Custom CSS with gradient cards and Inter font
 
 
-📈 Key Findings (from the data)
+
+
+## 📈 Key Findings (from the data)
 
 Temperature deviations above 3°C dramatically increase spoilage risk
+
 Distribution times beyond 48 hours cause a sharp spike in waste rates
+
 Deep discounting (>40%) destroys margins more than the spoilage itself
+
 Handling Score is one of the strongest predictors of spoilage — every 1-point drop matters
+
 The top waste category alone accounts for the majority of total waste cost
 
